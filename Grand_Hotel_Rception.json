@@ -1,0 +1,6903 @@
+{
+  "intents": [
+    {
+      "intent": "appreciation",
+      "examples": [
+        {
+          "text": "glad I helped you"
+        },
+        {
+          "text": "I appreciation it"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank u"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thx"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "booking",
+      "examples": [
+        {
+          "text": "Booking"
+        },
+        {
+          "text": "I need a room"
+        },
+        {
+          "text": "I need to book 1 room"
+        },
+        {
+          "text": "I need to book 2 rooms"
+        },
+        {
+          "text": "I need to book 3 rooms"
+        },
+        {
+          "text": "I need to book one room"
+        },
+        {
+          "text": "I need to book three rooms"
+        },
+        {
+          "text": "I need to book two rooms"
+        },
+        {
+          "text": "i need to reserve a room"
+        },
+        {
+          "text": "I want to book 1 room"
+        },
+        {
+          "text": "I want to book 2 rooms"
+        },
+        {
+          "text": "I want to book 3 rooms"
+        },
+        {
+          "text": "I want to book a room"
+        },
+        {
+          "text": "I want to book one room"
+        },
+        {
+          "text": "I want to book three rooms"
+        },
+        {
+          "text": "I want to book two rooms"
+        },
+        {
+          "text": "I want to make a reservation"
+        },
+        {
+          "text": "i want to reserve a room"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "goodbyes",
+      "examples": [
+        {
+          "text": "goodbye"
+        },
+        {
+          "text": "have a good day"
+        },
+        {
+          "text": "see ya"
+        },
+        {
+          "text": "see you later"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "greetings"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hey, how can I help you?"
+        },
+        {
+          "text": "Hi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "location",
+      "examples": [
+        {
+          "text": "can i get your location"
+        },
+        {
+          "text": "how can i find your hotel"
+        },
+        {
+          "text": "how can i find your hotel?"
+        },
+        {
+          "text": "how can i find your place"
+        },
+        {
+          "text": "how can i find your place?"
+        },
+        {
+          "text": "how can i get to the hotel"
+        },
+        {
+          "text": "how do i get to the hotel"
+        },
+        {
+          "text": "how do i get to the hotel?"
+        },
+        {
+          "text": "location"
+        },
+        {
+          "text": "location of hotel"
+        },
+        {
+          "text": "location of hotel?"
+        },
+        {
+          "text": "location of the hotel"
+        },
+        {
+          "text": "location of the hotel?"
+        },
+        {
+          "text": "location please"
+        },
+        {
+          "text": "send your location"
+        },
+        {
+          "text": "where are you located"
+        },
+        {
+          "text": "where can i find the hotel"
+        },
+        {
+          "text": "where is your hotel"
+        },
+        {
+          "text": "where is your hotel?"
+        },
+        {
+          "text": "where is your location"
+        },
+        {
+          "text": "where is your place"
+        },
+        {
+          "text": "where is your place?"
+        },
+        {
+          "text": "where to find your hotel"
+        },
+        {
+          "text": "where to find your hotel?"
+        },
+        {
+          "text": "where to find your place"
+        },
+        {
+          "text": "where to find your place?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "prices",
+      "examples": [
+        {
+          "text": "how much is the double room"
+        },
+        {
+          "text": "how much is the king room"
+        },
+        {
+          "text": "how much is the single room"
+        },
+        {
+          "text": "how much is the suite"
+        },
+        {
+          "text": "show me a list of your prices"
+        },
+        {
+          "text": "show me the prices"
+        },
+        {
+          "text": "what are your prices"
+        },
+        {
+          "text": "what is the price of the breakfast"
+        },
+        {
+          "text": "what is the price of the breakfast?"
+        },
+        {
+          "text": "what is the price of the Dinner"
+        },
+        {
+          "text": "what is the price of the dinner?"
+        },
+        {
+          "text": "what is the price of the double room"
+        },
+        {
+          "text": "what is the price of the double room?"
+        },
+        {
+          "text": "what is the price of the gym"
+        },
+        {
+          "text": "what is the price of the gym?"
+        },
+        {
+          "text": "what is the price of the king room"
+        },
+        {
+          "text": "what is the price of the king room?"
+        },
+        {
+          "text": "what is the price of the lunch"
+        },
+        {
+          "text": "what is the price of the lunch?"
+        },
+        {
+          "text": "what is the price of the single room"
+        },
+        {
+          "text": "what is the price of the single room?"
+        },
+        {
+          "text": "/what is the price of the SPA"
+        },
+        {
+          "text": "what is the price of the SPA"
+        },
+        {
+          "text": "what is the price of the SPA?"
+        },
+        {
+          "text": "what is the price of the suite"
+        },
+        {
+          "text": "what is the price of the suite?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "rooms",
+      "examples": [
+        {
+          "text": "what is a double room"
+        },
+        {
+          "text": "what is a double room?"
+        },
+        {
+          "text": "what is a king room"
+        },
+        {
+          "text": "what is a king room?"
+        },
+        {
+          "text": "what is a single room"
+        },
+        {
+          "text": "what is a single room?"
+        },
+        {
+          "text": "what is a standard room"
+        },
+        {
+          "text": "what is a standard room?"
+        },
+        {
+          "text": "what is a Studio"
+        },
+        {
+          "text": "what is a Studio?"
+        },
+        {
+          "text": "what is a Suite"
+        },
+        {
+          "text": "what is a twin room"
+        },
+        {
+          "text": "what is a twin room?"
+        },
+        {
+          "text": "what is Suite?"
+        },
+        {
+          "text": "what type of rooms do you have"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "services",
+      "examples": [
+        {
+          "text": "services"
+        },
+        {
+          "text": "show me your services"
+        },
+        {
+          "text": "show me your services?"
+        },
+        {
+          "text": "what are the available services"
+        },
+        {
+          "text": "what are the available services?"
+        },
+        {
+          "text": "what are your services"
+        },
+        {
+          "text": "what are your services?"
+        },
+        {
+          "text": "what services do you have"
+        },
+        {
+          "text": "what services do you have?"
+        },
+        {
+          "text": "what services do you have in the hotel"
+        },
+        {
+          "text": "what services do you have in the hotel?"
+        },
+        {
+          "text": "what services do you offer"
+        },
+        {
+          "text": "what services do you offer?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "agreement",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "change",
+          "synonyms": [
+            "change the room",
+            "yes",
+            "yes change it",
+            "yes change the room"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "i agree",
+            "yeah"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "dates",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "01/01/2021",
+          "synonyms": [
+            "01-01",
+            "01/01",
+            "01-01-2021",
+            "1-1",
+            "1/1",
+            "1-1-2021",
+            "1/1/2021",
+            "at 0-1",
+            "at 0/1",
+            "at 01-01",
+            "at 01/01",
+            "at 01-01-2021",
+            "at 01/01/2021",
+            "at 0-1-2021",
+            "at 0/1/2021"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "02/01/2021",
+          "synonyms": [
+            "02-01",
+            "02/01",
+            "02-01-2021",
+            "2-1",
+            "2/1",
+            "2-1-2021",
+            "2/1/2021"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "03/01/2021",
+          "synonyms": [
+            "03-01",
+            "03/01",
+            "03-01-2021",
+            "3-1",
+            "3/1",
+            "3-1-2021",
+            "3/1/2021"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "04-01-2021",
+          "synonyms": [
+            "04-01",
+            "04/01",
+            "04/01/2021",
+            "4-1",
+            "4/1",
+            "4-1-2021",
+            "4/1/2021"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "05/01/2021",
+          "synonyms": [
+            "05-01",
+            "05/01",
+            "05-01-2021",
+            "5-1",
+            "5/1",
+            "5-1-2021",
+            "5/1/2021"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "days",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "day",
+          "synonyms": [
+            "1",
+            "1 day",
+            "a day",
+            "one day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "five days",
+          "synonyms": [
+            "5",
+            "5 days"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "four days",
+          "synonyms": [
+            "4",
+            "4 days"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "three days",
+          "synonyms": [
+            "3",
+            "3 days"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "two days",
+          "synonyms": [
+            "2",
+            "2 days",
+            "two"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "rejection",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "cancel it",
+            "no cancel it",
+            "no cancel it please",
+            "no please",
+            "no thank you"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "room_number",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": [
+            "1 room",
+            "a room",
+            "one room",
+            "room"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": [
+            "2 rooms",
+            "two",
+            "two rooms"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": [
+            "3 rooms",
+            "three",
+            "three rooms"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "4",
+          "synonyms": [
+            "4 rooms",
+            "four",
+            "four rooms"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "5",
+          "synonyms": [
+            "5 rooms",
+            "five",
+            "five rooms"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "rooms",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "double room",
+          "synonyms": [
+            "a double room",
+            "double",
+            "i need a double room",
+            "i need double room",
+            "i need to book a double room",
+            "i need to book double room",
+            "i want a double room",
+            "i want double room",
+            "i want to book a double room",
+            "i want to book double room"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "king room",
+          "synonyms": [
+            "a king room",
+            "i need a king room",
+            "i need to book a king room",
+            "i need to book king room",
+            "i want  king room",
+            "i want to book a king room",
+            "i want to book king room"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "single room",
+          "synonyms": [
+            "a single room",
+            "i need a single room",
+            "i need single room",
+            "i want a single room",
+            "i want single room"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "suite",
+          "synonyms": [
+            "i need a suite",
+            "i need suite",
+            "i need to book a suite",
+            "i need to book suite",
+            "i want a suite",
+            "i want suite",
+            "i want to book a suite",
+            "i want to book suite"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_8_1625304362617",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {},
+      "parent": "node_99_1625409106522",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304473058"
+      },
+      "conditions": "@agreement:change",
+      "dialog_node": "node_100_1625409106522"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {},
+      "parent": "node_99_1625409106522",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_101_1625409106522",
+      "previous_sibling": "node_100_1625409106522"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 king room for 1 day with total price = 200$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1625395312833",
+      "conditions": "@days:day",
+      "dialog_node": "node_10_1625395120249"
+    },
+    {
+      "type": "standard",
+      "title": "i want a single room",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Each customer can book up to 4 rooms."
+              },
+              {
+                "text": "How many rooms you want?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "@rooms:(single room)",
+      "dialog_node": "node_10_1625397848043",
+      "previous_sibling": "node_9_1625393185005"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {},
+      "parent": "node_9_1625404796136",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304473058"
+      },
+      "conditions": "@agreement:change",
+      "dialog_node": "node_10_1625404796136"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {},
+      "parent": "node_9_1625406104578",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304473058"
+      },
+      "conditions": "@agreement:change",
+      "dialog_node": "node_10_1625406104578"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {},
+      "parent": "node_9_1625407203350",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304473058"
+      },
+      "conditions": "@agreement:change",
+      "dialog_node": "node_10_1625407203350"
+    },
+    {
+      "type": "standard",
+      "title": "no   ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1625406125713",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_10_1625412694665"
+    },
+    {
+      "type": "standard",
+      "title": "5 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry the maximum number of room for each customer is 4 rooms"
+              },
+              {
+                "text": "Please book less number of rooms."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1625400368188",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1625400368188"
+      },
+      "conditions": "@room_number > 4",
+      "dialog_node": "node_102_1625409127562",
+      "previous_sibling": "node_91_1625409106520"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {},
+      "parent": "node_9_1625404796136",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_11_1625404796136",
+      "previous_sibling": "node_10_1625404796136"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {},
+      "parent": "node_9_1625406104578",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_11_1625406104578",
+      "previous_sibling": "node_10_1625406104578"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {},
+      "parent": "node_9_1625407203350",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_11_1625407203350",
+      "previous_sibling": "node_10_1625407203350"
+    },
+    {
+      "type": "standard",
+      "title": "no   ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_16_1625406125713",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_11_1625412719319"
+    },
+    {
+      "type": "standard",
+      "title": "at 1/1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "price of king room is 200$ per night, shall I pursue the king room booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1625405668916",
+      "conditions": "@days",
+      "dialog_node": "node_1_1625393513173"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 king room for 2 days with total price = 400$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1625395312833",
+      "conditions": " @days:(two days)",
+      "dialog_node": "node_1_1625401666281",
+      "previous_sibling": "node_10_1625395120249"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 king room for 5 days with total price = 1000$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1625395312833",
+      "conditions": "@days:(five days)",
+      "dialog_node": "node_1_1625404675388",
+      "previous_sibling": "node_3_1625401744246"
+    },
+    {
+      "type": "standard",
+      "title": "4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Our rooms are available only from 01/01/2022 - 05/01/2022"
+              },
+              {
+                "text": "At which date is your check in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_9_1625393185005",
+      "conditions": "@room_number:4",
+      "dialog_node": "node_1_1625406079078",
+      "previous_sibling": "node_3_1625406045366"
+    },
+    {
+      "type": "standard",
+      "title": "2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Our rooms are available only from 01/01/2022 - 05/01/2022"
+              },
+              {
+                "text": "At which date is your check in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1625397848043",
+      "conditions": "@room_number:2",
+      "dialog_node": "node_1_1625407203349",
+      "previous_sibling": "node_6_1625407063972"
+    },
+    {
+      "type": "standard",
+      "title": "no ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625401666281",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_1_1625412476907"
+    },
+    {
+      "type": "standard",
+      "title": "at 1/1  ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "price of double room is 150$ per night, shall I pursue with the double room booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625408160004",
+      "conditions": "@days",
+      "dialog_node": "node_12_1625404921895"
+    },
+    {
+      "type": "standard",
+      "title": "at 1/1  ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "price of king room is 200$ per night, shall I pursue the king room booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1625406045366",
+      "conditions": "@days",
+      "dialog_node": "node_12_1625406125710"
+    },
+    {
+      "type": "standard",
+      "title": "3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Our rooms are available only from 01/01/2022 - 05/01/2022"
+              },
+              {
+                "text": "At which date is your check in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1625397848043",
+      "conditions": "@room_number:3",
+      "dialog_node": "node_12_1625407234435",
+      "previous_sibling": "node_1_1625407203349"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_15_1625406125713",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_12_1625412727923"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For how many days you want to book the room?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1625404921895",
+      "conditions": "@agreement",
+      "dialog_node": "node_13_1625404921898"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For how many days you want to book the room?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1625406125710",
+      "conditions": "@agreement",
+      "dialog_node": "node_13_1625406125713"
+    },
+    {
+      "type": "standard",
+      "title": "at 1/1 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "price of single room is 100$ per night, shall I pursue the single room booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1625407234435",
+      "conditions": "@days",
+      "dialog_node": "node_13_1625407234438"
+    },
+    {
+      "type": "standard",
+      "title": "no    ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_17_1625406125713",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_13_1625412759176"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 double room for 1 day with total price = 150$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_13_1625404921898",
+      "conditions": "@days:day",
+      "dialog_node": "node_14_1625404921898"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 king rooms for 1 day with total price = 600$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_13_1625406125713",
+      "conditions": "@days:day",
+      "dialog_node": "node_14_1625406125713"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For how many days you want to book the room?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_13_1625407234438",
+      "conditions": "@agreement",
+      "dialog_node": "node_14_1625407234438"
+    },
+    {
+      "type": "standard",
+      "title": "no     ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1625406125713",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_14_1625412780434"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 double room for 2 days with total price = 300$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_13_1625404921898",
+      "conditions": " @days:(two days)",
+      "dialog_node": "node_15_1625404921898",
+      "previous_sibling": "node_14_1625404921898"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 king rooms for 2 days with total price = 1200$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_13_1625406125713",
+      "conditions": " @days:(two days)",
+      "dialog_node": "node_15_1625406125713",
+      "previous_sibling": "node_14_1625406125713"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 single rooms for 1 day with total price = 300$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_14_1625407234438",
+      "conditions": "@days:day",
+      "dialog_node": "node_15_1625407234438"
+    },
+    {
+      "type": "standard",
+      "title": "no    ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_24_1625406145242",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_15_1625412804592"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 double room for 3 days with total price = 450$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_13_1625404921898",
+      "conditions": "@days:(three days)",
+      "dialog_node": "node_16_1625404921898",
+      "previous_sibling": "node_15_1625404921898"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 king rooms for 3 days with total price =1800$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_13_1625406125713",
+      "conditions": "@days:(three days)",
+      "dialog_node": "node_16_1625406125713",
+      "previous_sibling": "node_15_1625406125713"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 single room for 2 days with total price = 600$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_14_1625407234438",
+      "conditions": " @days:(two days)",
+      "dialog_node": "node_16_1625407234438",
+      "previous_sibling": "node_15_1625407234438"
+    },
+    {
+      "type": "standard",
+      "title": "no    ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1625406145242",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_16_1625412830370"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 double room for 4 days with total price = 600$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_13_1625404921898",
+      "conditions": " @days:(four days)",
+      "dialog_node": "node_17_1625404921898",
+      "previous_sibling": "node_16_1625404921898"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 king rooms for 4 days with total price = 2400$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_13_1625406125713",
+      "conditions": " @days:(four days)",
+      "dialog_node": "node_17_1625406125713",
+      "previous_sibling": "node_16_1625406125713"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 single rooms for 3 days with total price = 900$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_14_1625407234438",
+      "conditions": "@days:(three days)",
+      "dialog_node": "node_17_1625407234438",
+      "previous_sibling": "node_16_1625407234438"
+    },
+    {
+      "type": "standard",
+      "title": "no    ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_26_1625406145242",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_17_1625412848024"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 double room for 5 days with total price = 750$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_13_1625404921898",
+      "conditions": "@days:(five days)",
+      "dialog_node": "node_18_1625404921898",
+      "previous_sibling": "node_17_1625404921898"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 king rooms for 5 days with total price = 3000$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_13_1625406125713",
+      "conditions": "@days:(five days)",
+      "dialog_node": "node_18_1625406125713",
+      "previous_sibling": "node_17_1625406125713"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 single rooms for 4 days with total price = 1200$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_14_1625407234438",
+      "conditions": " @days:(four days)",
+      "dialog_node": "node_18_1625407234438",
+      "previous_sibling": "node_17_1625407234438"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_27_1625406145242",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_18_1625412862414"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to change the room? or can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1625404921895",
+      "conditions": "@rejection",
+      "dialog_node": "node_19_1625404921898",
+      "previous_sibling": "node_13_1625404921898"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to change the room? or can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1625406125710",
+      "conditions": "@rejection",
+      "dialog_node": "node_19_1625406125713",
+      "previous_sibling": "node_13_1625406125713"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 single rooms for 5 days with total price = 1500$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_14_1625407234438",
+      "conditions": "@days:(five days)",
+      "dialog_node": "node_19_1625407234438",
+      "previous_sibling": "node_18_1625407234438"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1625406145242",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_19_1625412879020"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {},
+      "parent": "node_19_1625404921898",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304473058"
+      },
+      "conditions": "@agreement:change",
+      "dialog_node": "node_20_1625404921898"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {},
+      "parent": "node_19_1625406125713",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304473058"
+      },
+      "conditions": "@agreement:change",
+      "dialog_node": "node_20_1625406125713"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to change the room? or can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_13_1625407234438",
+      "conditions": "@rejection",
+      "dialog_node": "node_20_1625407234438",
+      "previous_sibling": "node_14_1625407234438"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1625404796136",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_20_1625412896598"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {},
+      "parent": "node_19_1625404921898",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_21_1625404921898",
+      "previous_sibling": "node_20_1625404921898"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {},
+      "parent": "node_19_1625406125713",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_21_1625406125713",
+      "previous_sibling": "node_20_1625406125713"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {},
+      "parent": "node_20_1625407234438",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304473058"
+      },
+      "conditions": "@agreement:change",
+      "dialog_node": "node_21_1625407234438"
+    },
+    {
+      "type": "standard",
+      "title": "no   ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1625404796136",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_21_1625413219803"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 king room for 3 days with total price = 600$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1625395312833",
+      "conditions": "@days:(three days)",
+      "dialog_node": "node_2_1625401694419",
+      "previous_sibling": "node_1_1625401666281"
+    },
+    {
+      "type": "standard",
+      "title": "at 1/1 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "price of single room is 100$ per night, shall I pursue the single room booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1625407063972",
+      "conditions": "@days",
+      "dialog_node": "node_2_1625404796133"
+    },
+    {
+      "type": "standard",
+      "title": "at 1/1 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "price of king room is 200$ per night, shall I pursue the king room booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1625406004910",
+      "conditions": "@days",
+      "dialog_node": "node_2_1625406104576"
+    },
+    {
+      "type": "standard",
+      "title": "5",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry the maximum number of room for each customer is 4 rooms"
+              },
+              {
+                "text": "Please book less number of rooms."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_9_1625393185005",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1625393185005"
+      },
+      "conditions": "@room_number > 4",
+      "dialog_node": "node_2_1625406567390",
+      "previous_sibling": "node_1_1625406079078"
+    },
+    {
+      "type": "standard",
+      "title": "at 1/1 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "price of single room is 100$ per night, shall I pursue the single room booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625407203349",
+      "conditions": "@days",
+      "dialog_node": "node_2_1625407203350"
+    },
+    {
+      "type": "standard",
+      "title": "Hello",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, I am here to help you please feel free to ask me anything."
+              },
+              {
+                "text": "Hello, anything I can help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Greetings",
+      "dialog_node": "node_2_1625410733006",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625401694419",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_2_1625412506355"
+    },
+    {
+      "type": "standard",
+      "title": "at 1/1   ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "price of suites is 250$ per night, shall I pursue with the suite booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1625408961981",
+      "conditions": "@dates",
+      "dialog_node": "node_22_1625405066108"
+    },
+    {
+      "type": "standard",
+      "title": "at 1/1 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "price of king room is 200$ per night, shall I pursue the king room booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625406079078",
+      "conditions": "@days",
+      "dialog_node": "node_22_1625406145239"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {},
+      "parent": "node_20_1625407234438",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_22_1625407234438",
+      "previous_sibling": "node_21_1625407234438"
+    },
+    {
+      "type": "standard",
+      "title": "no   ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1625404796136",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_22_1625413234114"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For how many days you want to book the suite?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_22_1625405066108",
+      "conditions": "@agreement",
+      "dialog_node": "node_23_1625405066110"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For how many days you want to book the room?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_22_1625406145239",
+      "conditions": "@agreement",
+      "dialog_node": "node_23_1625406145242"
+    },
+    {
+      "type": "standard",
+      "title": "4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Our rooms are available only from 01/01/2022 - 05/01/2022"
+              },
+              {
+                "text": "At which date is your check in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1625397848043",
+      "conditions": "@room_number:4",
+      "dialog_node": "node_23_1625407251891",
+      "previous_sibling": "node_12_1625407234435"
+    },
+    {
+      "type": "standard",
+      "title": "no    ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1625404796136",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_23_1625413250244"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 suite for 1 day with total price = 250$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_23_1625405066110",
+      "conditions": "@days:day",
+      "dialog_node": "node_24_1625405066110"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 king rooms for 1 day with total price = 800$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_23_1625406145242",
+      "conditions": "@days:day",
+      "dialog_node": "node_24_1625406145242"
+    },
+    {
+      "type": "standard",
+      "title": "at 1/1 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "price of single room is 100$ per night, shall I pursue the single room booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1625407251891",
+      "conditions": "@days",
+      "dialog_node": "node_24_1625407251893"
+    },
+    {
+      "type": "standard",
+      "title": "no     ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1625404796136",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_24_1625413269724"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 suites for 2 days with total price = 500$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_23_1625405066110",
+      "conditions": " @days:(two days)",
+      "dialog_node": "node_25_1625405066110",
+      "previous_sibling": "node_24_1625405066110"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 king rooms for 2 days with total price = 1600$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_23_1625406145242",
+      "conditions": " @days:(two days)",
+      "dialog_node": "node_25_1625406145242",
+      "previous_sibling": "node_24_1625406145242"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For how many days you want to book the room?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_24_1625407251893",
+      "conditions": "@agreement",
+      "dialog_node": "node_25_1625407251893"
+    },
+    {
+      "type": "standard",
+      "title": "no      ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1625407203350",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_25_1625413284372"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 suite for 3 days with total price = 750$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_23_1625405066110",
+      "conditions": "@days:(three days)",
+      "dialog_node": "node_26_1625405066110",
+      "previous_sibling": "node_25_1625405066110"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 king rooms for 3 days with total price = 2400$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_23_1625406145242",
+      "conditions": "@days:(three days)",
+      "dialog_node": "node_26_1625406145242",
+      "previous_sibling": "node_25_1625406145242"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 single rooms for 1 day with total price = 400$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_25_1625407251893",
+      "conditions": "@days:day",
+      "dialog_node": "node_26_1625407251893"
+    },
+    {
+      "type": "standard",
+      "title": "no     ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1625407203350",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_26_1625413306587"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 suite for 4 days with total price = 1000$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_23_1625405066110",
+      "conditions": " @days:(four days)",
+      "dialog_node": "node_27_1625405066110",
+      "previous_sibling": "node_26_1625405066110"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 king rooms for 4 days with total price = 3200$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_23_1625406145242",
+      "conditions": " @days:(four days)",
+      "dialog_node": "node_27_1625406145242",
+      "previous_sibling": "node_26_1625406145242"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 single rooms for 2 days with total price = 800$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_25_1625407251893",
+      "conditions": " @days:(two days)",
+      "dialog_node": "node_27_1625407251893",
+      "previous_sibling": "node_26_1625407251893"
+    },
+    {
+      "type": "standard",
+      "title": "no   ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1625407203350",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_27_1625413322769"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 suite for 5 days with total price = 1250$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_23_1625405066110",
+      "conditions": "@days:(five days)",
+      "dialog_node": "node_28_1625405066110",
+      "previous_sibling": "node_27_1625405066110"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 king rooms for 5 days with total price = 4000$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_23_1625406145242",
+      "conditions": "@days:(five days)",
+      "dialog_node": "node_28_1625406145242",
+      "previous_sibling": "node_27_1625406145242"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 single rooms for 3 days with total price = 1200$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_25_1625407251893",
+      "conditions": "@days:(three days)",
+      "dialog_node": "node_28_1625407251893",
+      "previous_sibling": "node_27_1625407251893"
+    },
+    {
+      "type": "standard",
+      "title": "no   ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1625407203350",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_28_1625413337722"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to change the room? or can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_22_1625405066108",
+      "conditions": "@rejection",
+      "dialog_node": "node_29_1625405066110",
+      "previous_sibling": "node_23_1625405066110"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to change the room? or can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_22_1625406145239",
+      "conditions": "@rejection",
+      "dialog_node": "node_29_1625406145242",
+      "previous_sibling": "node_23_1625406145242"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 single rooms for 4 days with total price = 1600$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_25_1625407251893",
+      "conditions": " @days:(four days)",
+      "dialog_node": "node_29_1625407251893",
+      "previous_sibling": "node_28_1625407251893"
+    },
+    {
+      "type": "standard",
+      "title": "no    ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1625407203350",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_29_1625413351093"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {},
+      "parent": "node_29_1625405066110",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304473058"
+      },
+      "conditions": "@agreement:change",
+      "dialog_node": "node_30_1625405066110"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {},
+      "parent": "node_29_1625406145242",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304473058"
+      },
+      "conditions": "@agreement:change",
+      "dialog_node": "node_30_1625406145242"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 single rooms for 5 days with total price = 2000$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_25_1625407251893",
+      "conditions": "@days:(five days)",
+      "dialog_node": "node_30_1625407251893",
+      "previous_sibling": "node_29_1625407251893"
+    },
+    {
+      "type": "standard",
+      "title": "no   ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_15_1625407234438",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_30_1625413366632"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {},
+      "parent": "node_29_1625405066110",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_31_1625405066110",
+      "previous_sibling": "node_30_1625405066110"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {},
+      "parent": "node_29_1625406145242",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_31_1625406145242",
+      "previous_sibling": "node_30_1625406145242"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to change the room? or can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_24_1625407251893",
+      "conditions": "@rejection",
+      "dialog_node": "node_31_1625407251893",
+      "previous_sibling": "node_25_1625407251893"
+    },
+    {
+      "type": "standard",
+      "title": "no ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_16_1625407234438",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_31_1625413388873"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 king room for 4 days with total price = 800$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1625395312833",
+      "conditions": " @days:(four days)",
+      "dialog_node": "node_3_1625401744246",
+      "previous_sibling": "node_2_1625401694419"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For how many days you want to book the room?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625404796133",
+      "conditions": "@agreement",
+      "dialog_node": "node_3_1625404796136"
+    },
+    {
+      "type": "standard",
+      "title": "3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Our rooms are available only from 01/01/2022 - 05/01/2022"
+              },
+              {
+                "text": "At which date is your check in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_9_1625393185005",
+      "conditions": "@room_number:3",
+      "dialog_node": "node_3_1625406045366",
+      "previous_sibling": "node_7_1625406004910"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For how many days you want to book the room?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625406104576",
+      "conditions": "@agreement",
+      "dialog_node": "node_3_1625406104578"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For how many days you want to book the room?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625407203350",
+      "conditions": "@agreement",
+      "dialog_node": "node_3_1625407203350"
+    },
+    {
+      "type": "standard",
+      "title": "no   ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1625401744246",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_3_1625412526820"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {},
+      "parent": "node_31_1625407251893",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304473058"
+      },
+      "conditions": "@agreement:change",
+      "dialog_node": "node_32_1625407251893"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_17_1625407234438",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_32_1625413404122"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {},
+      "parent": "node_31_1625407251893",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_33_1625407251893",
+      "previous_sibling": "node_32_1625407251893"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1625407234438",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_33_1625416590570"
+    },
+    {
+      "type": "standard",
+      "title": "5 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry the maximum number of room for each customer is 4 rooms"
+              },
+              {
+                "text": "Please book less number of rooms."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1625397848043",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1625397848043"
+      },
+      "conditions": "@room_number > 4",
+      "dialog_node": "node_34_1625407272075",
+      "previous_sibling": "node_23_1625407251891"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1625407234438",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_34_1625416605870"
+    },
+    {
+      "type": "standard",
+      "title": "2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Our rooms are available only from 01/01/2022 - 05/01/2022"
+              },
+              {
+                "text": "At which date is your check in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1625400200795",
+      "conditions": "@room_number:2",
+      "dialog_node": "node_35_1625408310239",
+      "previous_sibling": "node_9_1625408160004"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_26_1625407251893",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_35_1625417234133"
+    },
+    {
+      "type": "standard",
+      "title": "at 1/1  ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "price of double room is 150$ per night, shall I pursue with the double room booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_35_1625408310239",
+      "conditions": "@days",
+      "dialog_node": "node_36_1625408310240"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_27_1625407251893",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_36_1625417259856"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For how many days you want to book the room?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_36_1625408310240",
+      "conditions": "@agreement",
+      "dialog_node": "node_37_1625408310240"
+    },
+    {
+      "type": "standard",
+      "title": "no   ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1625407251893",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_37_1625417279397"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 double rooms for 1 day with total price = 300$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_37_1625408310240",
+      "conditions": "@days:day",
+      "dialog_node": "node_38_1625408310240"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1625407251893",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_38_1625417294896"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 double rooms for 2 days with total price = 600$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_37_1625408310240",
+      "conditions": " @days:(two days)",
+      "dialog_node": "node_39_1625408310240",
+      "previous_sibling": "node_38_1625408310240"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1625407251893",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_39_1625417309211"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 double rooms for 3 days with total price = 900$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_37_1625408310240",
+      "conditions": "@days:(three days)",
+      "dialog_node": "node_40_1625408310240",
+      "previous_sibling": "node_39_1625408310240"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1625404921898",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_40_1625417322011"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 double rooms for 4 days with total price = 1200$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_37_1625408310240",
+      "conditions": " @days:(four days)",
+      "dialog_node": "node_41_1625408310240",
+      "previous_sibling": "node_40_1625408310240"
+    },
+    {
+      "type": "standard",
+      "title": "no ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_15_1625404921898",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_41_1625417356565"
+    },
+    {
+      "type": "standard",
+      "title": "i want a suite",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Each customer can book up to 4 suites."
+              },
+              {
+                "text": "How many suites you want?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "@rooms:suite",
+      "dialog_node": "node_4_1625400368188",
+      "previous_sibling": "node_7_1625400200795"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 single room for 1 day with total price = 100$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625404796136",
+      "conditions": "@days:day",
+      "dialog_node": "node_4_1625404796136"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 king rooms for 1 day with total price = 400$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625406104578",
+      "conditions": "@days:day",
+      "dialog_node": "node_4_1625406104578"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 single rooms for 1 day with total price = 200$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625407203350",
+      "conditions": "@days:day",
+      "dialog_node": "node_4_1625407203350"
+    },
+    {
+      "type": "standard",
+      "title": "where is your location",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-4(B) Street, Olaya, Al Khobar 34446"
+              },
+              {
+                "text": "-Here is a google map link:"
+              },
+              {
+                "text": "https://www.google.com/travel/hotels/s/nk9hb"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#location",
+      "dialog_node": "node_4_1625409973179",
+      "previous_sibling": "node_4_1625400368188"
+    },
+    {
+      "type": "standard",
+      "title": "no ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625404675388",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_4_1625412547632"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 double rooms for 5 days with total price = 1500$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_37_1625408310240",
+      "conditions": "@days:(five days)",
+      "dialog_node": "node_42_1625408310240",
+      "previous_sibling": "node_41_1625408310240"
+    },
+    {
+      "type": "standard",
+      "title": "no ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_16_1625404921898",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_42_1625417372472"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to change the room? or can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_36_1625408310240",
+      "conditions": "@rejection",
+      "dialog_node": "node_43_1625408310240",
+      "previous_sibling": "node_37_1625408310240"
+    },
+    {
+      "type": "standard",
+      "title": "no ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1625404921898",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_43_1625417387226"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {},
+      "parent": "node_43_1625408310240",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304473058"
+      },
+      "conditions": "@agreement:change",
+      "dialog_node": "node_44_1625408310240"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_17_1625404921898",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_44_1625417394372"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {},
+      "parent": "node_43_1625408310240",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_45_1625408310240",
+      "previous_sibling": "node_44_1625408310240"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_38_1625408310240",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_45_1625417425952"
+    },
+    {
+      "type": "standard",
+      "title": "3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Our rooms are available only from 01/01/2022 - 05/01/2022"
+              },
+              {
+                "text": "At which date is your check in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1625400200795",
+      "conditions": "@room_number:3",
+      "dialog_node": "node_46_1625408321772",
+      "previous_sibling": "node_35_1625408310239"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_39_1625408310240",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_46_1625417472742"
+    },
+    {
+      "type": "standard",
+      "title": "at 1/1  ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "price of double room is 150$ per night, shall I pursue with the double room booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_46_1625408321772",
+      "conditions": "@days",
+      "dialog_node": "node_47_1625408321775"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_40_1625408310240",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_47_1625417502824"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For how many days you want to book the room?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_47_1625408321775",
+      "conditions": "@agreement",
+      "dialog_node": "node_48_1625408321775"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_41_1625408310240",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_48_1625417517331"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 double rooms for 1 day with total price = 450$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_48_1625408321775",
+      "conditions": "@days:day",
+      "dialog_node": "node_49_1625408321775"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_49_1625408321775",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_49_1625417531878"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 double rooms for 2 days with total price = 900$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_48_1625408321775",
+      "conditions": " @days:(two days)",
+      "dialog_node": "node_50_1625408321775",
+      "previous_sibling": "node_49_1625408321775"
+    },
+    {
+      "type": "standard",
+      "title": "no ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_42_1625408310240",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_50_1625417540712"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 double rooms for 3 days with total price = 1350$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_48_1625408321775",
+      "conditions": "@days:(three days)",
+      "dialog_node": "node_51_1625408321775",
+      "previous_sibling": "node_50_1625408321775"
+    },
+    {
+      "type": "standard",
+      "title": "no ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_50_1625408321775",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_51_1625417579478"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 single room for 2 days with total price = 200$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625404796136",
+      "conditions": " @days:(two days)",
+      "dialog_node": "node_5_1625404796136",
+      "previous_sibling": "node_4_1625404796136"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 king rooms for 2 days with total price = 800$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625406104578",
+      "conditions": " @days:(two days)",
+      "dialog_node": "node_5_1625406104578",
+      "previous_sibling": "node_4_1625406104578"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 single rooms for 2 days with total price = 400$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625407203350",
+      "conditions": " @days:(two days)",
+      "dialog_node": "node_5_1625407203350",
+      "previous_sibling": "node_4_1625407203350"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1625406104578",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_5_1625412579266"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 double rooms for 4 days with total price = 1800$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_48_1625408321775",
+      "conditions": " @days:(four days)",
+      "dialog_node": "node_52_1625408321775",
+      "previous_sibling": "node_51_1625408321775"
+    },
+    {
+      "type": "standard",
+      "title": "no ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_51_1625408321775",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_52_1625417593513"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 double rooms for 5 days with total price = 2250$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_48_1625408321775",
+      "conditions": "@days:(five days)",
+      "dialog_node": "node_53_1625408321775",
+      "previous_sibling": "node_52_1625408321775"
+    },
+    {
+      "type": "standard",
+      "title": "no ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_52_1625408321775",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_53_1625417608638"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to change the room? or can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_47_1625408321775",
+      "conditions": "@rejection",
+      "dialog_node": "node_54_1625408321775",
+      "previous_sibling": "node_48_1625408321775"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_53_1625408321775",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_54_1625417622964"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {},
+      "parent": "node_54_1625408321775",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304473058"
+      },
+      "conditions": "@agreement:change",
+      "dialog_node": "node_55_1625408321775"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_60_1625408334957",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_55_1625417641818"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {},
+      "parent": "node_54_1625408321775",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_56_1625408321775",
+      "previous_sibling": "node_55_1625408321775"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_61_1625408334957",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_56_1625417665514"
+    },
+    {
+      "type": "standard",
+      "title": "4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Our rooms are available only from 01/01/2022 - 05/01/2022"
+              },
+              {
+                "text": "At which date is your check in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1625400200795",
+      "conditions": "@room_number:4",
+      "dialog_node": "node_57_1625408334954",
+      "previous_sibling": "node_46_1625408321772"
+    },
+    {
+      "type": "standard",
+      "title": "no   ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_62_1625408334957",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_57_1625417687750"
+    },
+    {
+      "type": "standard",
+      "title": "at 1/1  ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "price of double room is 150$ per night, shall I pursue with the double room booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_57_1625408334954",
+      "conditions": "@days",
+      "dialog_node": "node_58_1625408334957"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_63_1625408334957",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_58_1625417711699"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For how many days you want to book the room?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_58_1625408334957",
+      "conditions": "@agreement",
+      "dialog_node": "node_59_1625408334957"
+    },
+    {
+      "type": "standard",
+      "title": "no   ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_64_1625408334957",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_59_1625417731536"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 double rooms for 1 day with total price = 600$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_59_1625408334957",
+      "conditions": "@days:day",
+      "dialog_node": "node_60_1625408334957"
+    },
+    {
+      "type": "standard",
+      "title": "no    ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_24_1625405066110",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_60_1625417755936"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 double rooms for 2 days with total price = 1200$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_59_1625408334957",
+      "conditions": " @days:(two days)",
+      "dialog_node": "node_61_1625408334957",
+      "previous_sibling": "node_60_1625408334957"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1625405066110",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_61_1625417920415"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For how many days you want to book the room?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625393513173",
+      "conditions": "@agreement",
+      "dialog_node": "node_6_1625395312833"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to change the room? or can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1625393513173",
+      "conditions": "@rejection",
+      "dialog_node": "node_6_1625400663464",
+      "previous_sibling": "node_6_1625395312833"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "parent": "node_6_1625400663464",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_6_1625401040732",
+      "previous_sibling": "node_9_1625400974997"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 single room for 3 days with total price = 300$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625404796136",
+      "conditions": "@days:(three days)",
+      "dialog_node": "node_6_1625404796136",
+      "previous_sibling": "node_5_1625404796136"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 king rooms for 3 days with total price = 1200$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625406104578",
+      "conditions": "@days:(three days)",
+      "dialog_node": "node_6_1625406104578",
+      "previous_sibling": "node_5_1625406104578"
+    },
+    {
+      "type": "standard",
+      "title": "1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Our rooms are available only from 01/01/2022 - 05/01/2022"
+              },
+              {
+                "text": "At which date is your check in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1625397848043",
+      "conditions": "@room_number:1",
+      "dialog_node": "node_6_1625407063972"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 single rooms for 3 days with total price = 600$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625407203350",
+      "conditions": "@days:(three days)",
+      "dialog_node": "node_6_1625407203350",
+      "previous_sibling": "node_5_1625407203350"
+    },
+    {
+      "type": "standard",
+      "title": "1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Our rooms are available only from 01/01/2022 - 05/01/2022"
+              },
+              {
+                "text": "At which date is your check in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1625400368188",
+      "conditions": "@room_number:1",
+      "dialog_node": "node_6_1625408961981"
+    },
+    {
+      "type": "standard",
+      "title": "services",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Booking"
+              },
+              {
+                "text": "Breakfast"
+              },
+              {
+                "text": "Lunch"
+              },
+              {
+                "text": "Dinner"
+              },
+              {
+                "text": "Cafeteria"
+              },
+              {
+                "text": "GYM"
+              },
+              {
+                "text": "SPA"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#services",
+      "dialog_node": "node_6_1625410493978",
+      "previous_sibling": "node_4_1625409973179"
+    },
+    {
+      "type": "standard",
+      "title": "no   ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1625406104578",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_6_1625412609048"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 double rooms for 3 days with total price = 1800$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_59_1625408334957",
+      "conditions": "@days:(three days)",
+      "dialog_node": "node_62_1625408334957",
+      "previous_sibling": "node_61_1625408334957"
+    },
+    {
+      "type": "standard",
+      "title": "no   ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_27_1625405066110",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_62_1625417937164"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 double rooms for 4 days with total price = 2400$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_59_1625408334957",
+      "conditions": " @days:(four days)",
+      "dialog_node": "node_63_1625408334957",
+      "previous_sibling": "node_62_1625408334957"
+    },
+    {
+      "type": "standard",
+      "title": "no   ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_26_1625405066110",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_63_1625417940740"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 double rooms for 5 days with total price = 3000$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_59_1625408334957",
+      "conditions": "@days:(five days)",
+      "dialog_node": "node_64_1625408334957",
+      "previous_sibling": "node_63_1625408334957"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1625405066110",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_64_1625417944557"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to change the room? or can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_58_1625408334957",
+      "conditions": "@rejection",
+      "dialog_node": "node_65_1625408334957",
+      "previous_sibling": "node_59_1625408334957"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_72_1625409078652",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_65_1625417990197"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {},
+      "parent": "node_65_1625408334957",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304473058"
+      },
+      "conditions": "@agreement:change",
+      "dialog_node": "node_66_1625408334957"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_73_1625409078652",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_66_1625418013964"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {},
+      "parent": "node_65_1625408334957",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_67_1625408334957",
+      "previous_sibling": "node_66_1625408334957"
+    },
+    {
+      "type": "standard",
+      "title": "no   ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_74_1625409078652",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_67_1625418017126"
+    },
+    {
+      "type": "standard",
+      "title": "5 ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry the maximum number of room for each customer is 4 rooms"
+              },
+              {
+                "text": "Please book less number of rooms."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1625400200795",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1625400200795"
+      },
+      "conditions": "@room_number > 4",
+      "dialog_node": "node_68_1625408378403",
+      "previous_sibling": "node_57_1625408334954"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1625409078652",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_68_1625418020213"
+    },
+    {
+      "type": "standard",
+      "title": "2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Our rooms are available only from 01/01/2022 - 05/01/2022"
+              },
+              {
+                "text": "At which date is your check in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1625400368188",
+      "conditions": "@room_number:2",
+      "dialog_node": "node_69_1625409078650",
+      "previous_sibling": "node_6_1625408961981"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_76_1625409078652",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_69_1625418023674"
+    },
+    {
+      "type": "standard",
+      "title": "at 1/1   ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "price of suites is 250$ per night, shall I pursue with the suite booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_69_1625409078650",
+      "conditions": "@dates",
+      "dialog_node": "node_70_1625409078652"
+    },
+    {
+      "type": "standard",
+      "title": "no ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_83_1625409093848",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_70_1625418106661"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For how many days you want to book the suite?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_70_1625409078652",
+      "conditions": "@agreement",
+      "dialog_node": "node_71_1625409078652"
+    },
+    {
+      "type": "standard",
+      "title": "no ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_87_1625409093848",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_71_1625418130160"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "my pleasure"
+              },
+              {
+                "text": "you're always welcome"
+              },
+              {
+                "text": "happy to help"
+              },
+              {
+                "text": "thank you too"
+              },
+              {
+                "text": "welcome"
+              },
+              {
+                "text": "glad to help you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#appreciation",
+      "dialog_node": "node_7_1625304256757",
+      "previous_sibling": "node_2_1625410733006"
+    },
+    {
+      "type": "standard",
+      "title": "i want a double room",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Each customer can book up to 4 rooms."
+              },
+              {
+                "text": "How many rooms you want?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "@rooms:(double room)",
+      "dialog_node": "node_7_1625400200795",
+      "previous_sibling": "node_10_1625397848043"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 single room for 4 days with total price = 400$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625404796136",
+      "conditions": " @days:(four days)",
+      "dialog_node": "node_7_1625404796136",
+      "previous_sibling": "node_6_1625404796136"
+    },
+    {
+      "type": "standard",
+      "title": "1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Our rooms are available only from 01/01/2022 - 05/01/2022"
+              },
+              {
+                "text": "At which date is your check in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_9_1625393185005",
+      "conditions": "@room_number:1",
+      "dialog_node": "node_7_1625405668916"
+    },
+    {
+      "type": "standard",
+      "title": "2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Our rooms are available only from 01/01/2022 - 05/01/2022"
+              },
+              {
+                "text": "At which date is your check in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_9_1625393185005",
+      "conditions": "@room_number:2",
+      "dialog_node": "node_7_1625406004910",
+      "previous_sibling": "node_7_1625405668916"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 king rooms for 4 days with total price = 1600$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625406104578",
+      "conditions": " @days:(four days)",
+      "dialog_node": "node_7_1625406104578",
+      "previous_sibling": "node_6_1625406104578"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 single rooms for 4 days with total price = 800$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625407203350",
+      "conditions": " @days:(four days)",
+      "dialog_node": "node_7_1625407203350",
+      "previous_sibling": "node_6_1625407203350"
+    },
+    {
+      "type": "standard",
+      "title": "show me the prices",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Single room is 100$ per night."
+              },
+              {
+                "text": "Double room is 150$ per night."
+              },
+              {
+                "text": "King room is 200$ per night."
+              },
+              {
+                "text": "Suite is 250$ per night."
+              },
+              {
+                "text": "Breakfast is 30$ per person."
+              },
+              {
+                "text": "Lunch is 30$ per person."
+              },
+              {
+                "text": "Dinner is 30$.per person"
+              },
+              {
+                "text": "SPA is 100$ per person."
+              },
+              {
+                "text": "GYM is free for all customers."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#prices",
+      "dialog_node": "node_7_1625410150754",
+      "previous_sibling": "node_6_1625410493978"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1625406104578",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_7_1625412629118"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 suites for 1 day with total price = 500$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_71_1625409078652",
+      "conditions": "@days:day",
+      "dialog_node": "node_72_1625409078652"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_86_1625409093848",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_72_1625418138056"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 suites for 2 days with total price = 1000$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_71_1625409078652",
+      "conditions": " @days:(two days)",
+      "dialog_node": "node_73_1625409078652",
+      "previous_sibling": "node_72_1625409078652"
+    },
+    {
+      "type": "standard",
+      "title": "no ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_85_1625409093848",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_73_1625418148282"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 suites for 3 days with total price = 1500$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_71_1625409078652",
+      "conditions": "@days:(three days)",
+      "dialog_node": "node_74_1625409078652",
+      "previous_sibling": "node_73_1625409078652"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_84_1625409093848",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_74_1625418156765"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 suites for 4 days with total price = 2000$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_71_1625409078652",
+      "conditions": " @days:(four days)",
+      "dialog_node": "node_75_1625409078652",
+      "previous_sibling": "node_74_1625409078652"
+    },
+    {
+      "type": "standard",
+      "title": "no  ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_94_1625409106522",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_75_1625418200852"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 suites for 5 days with total price = 2500$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_71_1625409078652",
+      "conditions": "@days:(five days)",
+      "dialog_node": "node_76_1625409078652",
+      "previous_sibling": "node_75_1625409078652"
+    },
+    {
+      "type": "standard",
+      "title": "no ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_98_1625409106522",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_76_1625418226123"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to change the room? or can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_70_1625409078652",
+      "conditions": "@rejection",
+      "dialog_node": "node_77_1625409078652",
+      "previous_sibling": "node_71_1625409078652"
+    },
+    {
+      "type": "standard",
+      "title": "no ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_97_1625409106522",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_77_1625418233645"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {},
+      "parent": "node_77_1625409078652",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304473058"
+      },
+      "conditions": "@agreement:change",
+      "dialog_node": "node_78_1625409078652"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_96_1625409106522",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_78_1625418244923"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {},
+      "parent": "node_77_1625409078652",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_79_1625409078652",
+      "previous_sibling": "node_78_1625409078652"
+    },
+    {
+      "type": "standard",
+      "title": "no ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_95_1625409106522",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_79_1625418253695"
+    },
+    {
+      "type": "standard",
+      "title": "3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Our rooms are available only from 01/01/2022 - 05/01/2022"
+              },
+              {
+                "text": "At which date is your check in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1625400368188",
+      "conditions": "@room_number:3",
+      "dialog_node": "node_80_1625409093844",
+      "previous_sibling": "node_69_1625409078650"
+    },
+    {
+      "type": "standard",
+      "title": "at 1/1   ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "price of suites is 250$ per night, shall I pursue with the suite booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_80_1625409093844",
+      "conditions": "@dates",
+      "dialog_node": "node_81_1625409093848"
+    },
+    {
+      "type": "standard",
+      "title": "good bye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "thank you for using our services "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "see you"
+              },
+              {
+                "text": "goodbye"
+              },
+              {
+                "text": "I hope to see you again"
+              },
+              {
+                "text": "see you later"
+              },
+              {
+                "text": "have a good day"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#goodbyes",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1625304362617",
+      "previous_sibling": "node_8_1625410603025"
+    },
+    {
+      "type": "standard",
+      "title": "i want to book a room",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want a single room, double room, king room or a suite?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1625393185005"
+      },
+      "conditions": "#booking",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1625304473058",
+      "previous_sibling": "node_7_1625304256757"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 1 single room for 5 days with total price = 500$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625404796136",
+      "conditions": "@days:(five days)",
+      "dialog_node": "node_8_1625404796136",
+      "previous_sibling": "node_7_1625404796136"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 king rooms for 5 days with total price = 2000$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625406104578",
+      "conditions": "@days:(five days)",
+      "dialog_node": "node_8_1625406104578",
+      "previous_sibling": "node_7_1625406104578"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 2 single room for 5 days with total price = 1000$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625407203350",
+      "conditions": "@days:(five days)",
+      "dialog_node": "node_8_1625407203350",
+      "previous_sibling": "node_7_1625407203350"
+    },
+    {
+      "type": "standard",
+      "title": "who are you?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am a grand Hotel reception agent"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_About_You",
+      "dialog_node": "node_8_1625410603025",
+      "previous_sibling": "node_7_1625410150754"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "parent": "node_10_1625395120249",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_8_1625412415581"
+    },
+    {
+      "type": "standard",
+      "title": "no   ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1625406104578",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_8_1625412654714"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For how many days you want to book the suite?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_81_1625409093848",
+      "conditions": "@agreement",
+      "dialog_node": "node_82_1625409093848"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 suites for 1 day with total price = 750$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_82_1625409093848",
+      "conditions": "@days:day",
+      "dialog_node": "node_83_1625409093848"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 suites for 2 days with total price = 1500$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_82_1625409093848",
+      "conditions": " @days:(two days)",
+      "dialog_node": "node_84_1625409093848",
+      "previous_sibling": "node_83_1625409093848"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 suite for 3 days with total price = 2250$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_82_1625409093848",
+      "conditions": "@days:(three days)",
+      "dialog_node": "node_85_1625409093848",
+      "previous_sibling": "node_84_1625409093848"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 3 suites for 4 days with total price = 3000$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_82_1625409093848",
+      "conditions": " @days:(four days)",
+      "dialog_node": "node_86_1625409093848",
+      "previous_sibling": "node_85_1625409093848"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 suites for 5 days with total price = 3750$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_82_1625409093848",
+      "conditions": "@days:(five days)",
+      "dialog_node": "node_87_1625409093848",
+      "previous_sibling": "node_86_1625409093848"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to change the room? or can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_81_1625409093848",
+      "conditions": "@rejection",
+      "dialog_node": "node_88_1625409093848",
+      "previous_sibling": "node_82_1625409093848"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {},
+      "parent": "node_88_1625409093848",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304473058"
+      },
+      "conditions": "@agreement:change",
+      "dialog_node": "node_89_1625409093848"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {},
+      "parent": "node_88_1625409093848",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_90_1625409093848",
+      "previous_sibling": "node_89_1625409093848"
+    },
+    {
+      "type": "standard",
+      "title": "4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Our rooms are available only from 01/01/2022 - 05/01/2022"
+              },
+              {
+                "text": "At which date is your check in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1625400368188",
+      "conditions": "@room_number:4",
+      "dialog_node": "node_91_1625409106520",
+      "previous_sibling": "node_80_1625409093844"
+    },
+    {
+      "type": "standard",
+      "title": "I want a king room",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Each customer can book up to 4 rooms."
+              },
+              {
+                "text": "How many rooms you want?"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "@rooms:(king room)",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1625393185005",
+      "previous_sibling": "node_8_1625304473058"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "parent": "node_6_1625400663464",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304473058"
+      },
+      "conditions": "@agreement:change",
+      "dialog_node": "node_9_1625400974997"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to change the room? or can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625404796133",
+      "conditions": "@rejection",
+      "dialog_node": "node_9_1625404796136",
+      "previous_sibling": "node_3_1625404796136"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to change the room? or can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625406104576",
+      "conditions": "@rejection",
+      "dialog_node": "node_9_1625406104578",
+      "previous_sibling": "node_3_1625406104578"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to change the room? or can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1625407203350",
+      "conditions": "@rejection",
+      "dialog_node": "node_9_1625407203350",
+      "previous_sibling": "node_3_1625407203350"
+    },
+    {
+      "type": "standard",
+      "title": "1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-Our rooms are available only from 01/01/2022 - 05/01/2022"
+              },
+              {
+                "text": "At which date is your check in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1625400200795",
+      "conditions": "@room_number:1",
+      "dialog_node": "node_9_1625408160004"
+    },
+    {
+      "type": "standard",
+      "title": "no    ",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1625406104578",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625304362617"
+      },
+      "conditions": "@rejection",
+      "dialog_node": "node_9_1625412676502"
+    },
+    {
+      "type": "standard",
+      "title": "at 1/1   ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "price of suites is 250$ per night, shall I pursue with the suite booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_91_1625409106520",
+      "conditions": "@days",
+      "dialog_node": "node_92_1625409106522"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For how many days you want to book the suite?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_92_1625409106522",
+      "conditions": "@agreement",
+      "dialog_node": "node_93_1625409106522"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 suites for 1 day with total price = 1000$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_93_1625409106522",
+      "conditions": "@days:day",
+      "dialog_node": "node_94_1625409106522"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 suites for 2 days with total price = 2000$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_93_1625409106522",
+      "conditions": " @days:(two days)",
+      "dialog_node": "node_95_1625409106522",
+      "previous_sibling": "node_94_1625409106522"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 suites for 3 days with total price = 3000$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_93_1625409106522",
+      "conditions": "@days:(three days)",
+      "dialog_node": "node_96_1625409106522",
+      "previous_sibling": "node_95_1625409106522"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 suites for 4 days with total price = 4000$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_93_1625409106522",
+      "conditions": " @days:(four days)",
+      "dialog_node": "node_97_1625409106522",
+      "previous_sibling": "node_96_1625409106522"
+    },
+    {
+      "type": "standard",
+      "title": "day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "booking confirmed, 4 suite for 5 days with total price = 5000$"
+              },
+              {
+                "text": "thank your for trusting us"
+              },
+              {
+                "text": "Can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_93_1625409106522",
+      "conditions": "@days:(five days)",
+      "dialog_node": "node_98_1625409106522",
+      "previous_sibling": "node_97_1625409106522"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "do you want to change the room? or can I help you with something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_92_1625409106522",
+      "conditions": "@rejection",
+      "dialog_node": "node_99_1625409106522",
+      "previous_sibling": "node_93_1625409106522"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              },
+              {
+                "text": "Hi, How Can I help you?"
+              },
+              {
+                "text": "Welcome, what Can I do for you?"
+              },
+              {
+                "text": "hello, I am grand hotel's reception agent how can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "i want a king room"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Booking",
+  "language": "en",
+  "description": ""
+}

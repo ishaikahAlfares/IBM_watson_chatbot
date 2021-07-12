@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Grand Hotel</title>
+    <style type="text/css">
+   
+    header {
+        align-content: center;
+        border: solid;
+        border-color: darkgray;
+        display: flex;
+        background-color:white;
+    
+    }
+    .bodys {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        background-color:#dddcb3
+
+    }
+    p{  
+        margin-left: 20px;
+        padding-left: 15px;
+        font-size: 25px;
+        color: #c9c71f;
+        
+    }
+    h4 {
+       display: inline-block;
+        margin-left: 15px;
+        margin-top: 40px;
+        color: #53534e;
+    }
+   
+    a:link {
+  color: #53534e;
+  background-color: transparent;
+  text-decoration: none;
+  display: inline-block;
+        margin-left: 10px;
+        color: #53534e;
+  
+}
+
+a:visited {
+  color: #53534e;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c9c71f;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(148, 224, 247);
+  background-color: transparent;
+  text-decoration: underline;
+}
+    </style>
+</head>
+<header>
+    <p><strong>Grand Hotel | 1990 </strong></p>
+    <h4><a href="#">About us</a>
+     <a href="#">Contact us</a></h4>
+</header>
+<body>
+    <dive  class="bodys">
+    <h2>welcome to our web page</h2>
+    <h3>Please click on the Message icon to contact the reception to make a booking or any other service</h3>
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "b1d0cef9-bc5b-4a73-a27a-64f83604070d", // The ID of this integration.
+            region: "eu-gb", // The region your integration is hosted in.
+            serviceInstanceID: "01115d95-7de3-4596-9d5b-11dce20d4952", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+          document.head.appendChild(t);
+        });
+      </script>
+      </dive>
+</body>
